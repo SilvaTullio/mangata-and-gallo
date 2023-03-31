@@ -1,18 +1,22 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@400;700&display=swap'); /* promo */
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@400;700&display=swap"); /* promo */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700&display=swap");
-aside{
-    background-color: black;
-    margin: auto;
-    margin-top: -2rem;
-    padding: 0.7rem;
-    margin-bottom: 1rem;
-    width: 100vw;
-    text-align: center;
-    font-weight: 700;
+* {
+  margin: 0;
+  padding: 0;
+}
+aside {
+  background-color: black;
+  margin: auto;
+  margin-top: -2rem;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  width: 100vw;
+  text-align: center;
+  font-weight: 700;
 }
 aside a {
-  color: white;
+  color: #fff;
   font-family: "Sofia Sans Condensed", sans-serif;
   text-decoration: none;
 }
@@ -41,6 +45,67 @@ nav a {
 nav a:hover {
   color: black;
   text-decoration: underline;
+}
+.content {
+  height: 32.5rem;
+  width: 58.438rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navigation {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+}
+.nBar {
+  width: 4.375rem;
+  height: 1.063rem;
+  border: 0.125rem solid #fff;
+  margin: 1.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.nBar:hover {
+  background-color: #eeeeee;
+}
+input {
+  display: none;
+}
+.slideShow {
+  display: flex;
+  width: 400%;
+  height: 100%;
+}
+.slide {
+  width: 30%;
+  transition: 0.6s;
+}
+.slide img{
+  width: 100%;
+}
+
+#slide1:checked ~ .s1{
+  margin-left: 0;
+}
+#slide2:checked ~ .s1{
+  margin-left: -30%;
+}
+#slide3:checked ~ .s1{
+  margin-left: -60%;
+}
+#slide4:checked ~ .s1{
+  margin-left: -90%;
+}
+html {
+  height: 100vh;
+  width: 100vw;
 }
 body {
   background-color: #fff;
