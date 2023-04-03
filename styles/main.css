@@ -48,8 +48,8 @@ nav a:hover {
   text-decoration: underline;
 }
 .content {
-  height: 32.5rem;
-  width: 58.438rem;
+  height: 50%;
+  width: 50%;
   border-radius: 1.25rem;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.486);
   overflow: hidden;
@@ -91,6 +91,7 @@ input {
 }
 .slide img {
   width: 100%;
+  max-width: 150%;
 }
 
 #slide1:checked ~ .s1 {
@@ -115,9 +116,10 @@ input {
 }
 .bg > h2,
 p {
+  width: 20%;
   position: relative;
   top: 45%;
-  left: 3%;
+  left: 2%;
 }
 .bg > p {
   font-weight: 300;
@@ -127,8 +129,9 @@ p {
   background-color: #363636;
   padding: 14px;
   position: relative;
+  width: 15%;
   top: 30%;
-  left: 84%;
+  left: 83%;
   font-family: "Quicksand", sans-serif;
   font-weight: 300;
   border: 0.025rem solid #eeeeeec5;
@@ -158,6 +161,13 @@ section {
 }
 article {
   flex: 1;
+}
+
+.banner-parallax{
+  width: 100%;
+}
+.banner-parallax-inner{
+  
 }
 
 footer {
