@@ -165,9 +165,7 @@ article {
   flex: 1;
 }
 
-
-
-.block1{
+.block1 {
   margin-bottom: 3rem;
 }
 .block1 > h1 {
@@ -183,24 +181,56 @@ article {
   font-weight: 300;
 }
 
-
-.block2{
+.block2 {
   padding: 1.9rem;
-  line-height: 1.7rem;
-  width: 33vw;
-  background-color: #EEEEEE;
+  background-color: #333;
+  color: #fff;
 }
-.block2 h2{
+.block2 h2 {
   text-align: center;
 }
-.block2 img{
+.block2 img {
   position: relative;
+  border-radius: 1rem;
   left: 50%;
   transform: translateX(-50%);
   width: 70%;
 }
-.block2 >p{
+.block2 > p {
   width: 90%;
+  line-height: 1.7rem;
+}
+.block2:hover {
+  background-color: #eeeeee;
+  color: #333;
+  transition: 0.4s;
+  box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.342);
+}
+
+.block3 {
+  padding: 1.9rem;
+  background-color: #333;
+  color: #fff;
+}
+.block3 h2 {
+  text-align: center;
+}
+.block3 img {
+  position: relative;
+  border-radius: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+}
+.block3 > p {
+  width: 90%;
+  line-height: 1.7rem;
+}
+.block3:hover {
+  background-color: #eeeeee;
+  color: #333;
+  transition: 0.4s;
+  box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.342);
 }
 
 footer {
