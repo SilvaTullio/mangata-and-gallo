@@ -12,7 +12,7 @@ aside {
   margin-top: -2rem;
   padding: 0.7rem;
   margin-bottom: 1rem;
-  width: 100vw;
+  width: 88vw;
   text-align: center;
   font-weight: 700;
 }
@@ -159,17 +159,21 @@ h2 {
 }
 
 section {
-  display: flex;
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  grid-template-rows: 50% 50% 50%;
+  gap: 2%;
 }
-article {
-  flex: 1;
-}
-
+/* .container{
+  background-color: red;
+  height: 660px;
+  overflow: hidden;
+} */
 .block1 {
+  width: 90vw;
   margin-bottom: 3rem;
 }
 .block1 > h1 {
-  width: 95%;
   font-size: 5rem;
   font-weight: 300;
   text-align: center;
@@ -227,6 +231,32 @@ article {
   line-height: 1.7rem;
 }
 .block3:hover {
+  background-color: #eeeeee;
+  color: #333;
+  transition: 0.4s;
+  box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.342);
+}
+
+.block4 {
+  padding: 1.9rem;
+  background-color: #333;
+  color: #fff;
+}
+.block4 h2 {
+  text-align: center;
+}
+.block4 img {
+  position: relative;
+  border-radius: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+}
+.block4 > p {
+  width: 90%;
+  line-height: 1.7rem;
+}
+.block4:hover {
   background-color: #eeeeee;
   color: #333;
   transition: 0.4s;
