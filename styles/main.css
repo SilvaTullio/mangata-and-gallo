@@ -212,24 +212,34 @@ p {
   transition: 0.4s;
   box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.342);
   max-height: 100%;
+  margin-bottom: 10%;
 }
 
-.asideOptionsMenu{
+.asideOptionsMenu {
   background-color: #101820;
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  height: 5rem;
+  height: 7rem;
+  font-size: 1.5rem;
+    font-weight: 300;
+
 }
-.asideOptionsMenu  div{
+
+.asideOptionsMenu div {
   color: #eeeeee;
   padding: 1rem;
   text-align: center;
 }
-.asideOptionsCC:hover{
+.asideOptionsCC:hover,
+.asideOptionsCp:hover,
+.asideOptionsCD:hover,
+.asideOptionsPrtn:hover {
   background-color: #eeeeee;
-  transition: .4s;
+  transition: 0.4s;
   color: #101820;
+  cursor: pointer;
 }
+
 footer {
   display: flex;
   color: #101820;
