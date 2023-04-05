@@ -35,7 +35,7 @@ nav li {
   display: inline-block;
 }
 nav a {
-  color: #363636;
+  color: #101820;
   text-decoration: none;
   margin: 0rem 5rem;
 }
@@ -44,7 +44,7 @@ nav a:hover {
   text-decoration: underline;
 }
 .bg {
-  background-color: #363636;
+  background-color: #101820;
   height: 35.063rem;
   color: #fff;
   line-height: 3rem;
@@ -62,7 +62,7 @@ p {
 }
 .bg > button {
   color: white;
-  background-color: #363636;
+  background-color: #101820;
   padding: 14px;
   position: relative;
   width: 15%;
@@ -74,7 +74,7 @@ p {
 }
 .bg > button:hover {
   background-color: #fff;
-  color: black;
+  color: #101820;
   transition: 0.4s;
   text-decoration: underline;
   cursor: pointer;
@@ -171,11 +171,12 @@ p {
   text-align: center;
 }
 .block1 > h1 {
-  font-size: 5rem;
+  font-size: 3.7rem;
   font-weight: 300;
+  margin-top: 3rem;
 }
 .block1 > p {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   font-weight: 300;
   margin-bottom: 3rem;
 }
@@ -189,7 +190,7 @@ p {
 .block4 {
   position: relative;
   padding: 1.9rem;
-  background-color: #333;
+  background-color: #101820;
   color: #fff;
   min-height: 80%;
   max-height: 80%;
@@ -207,15 +208,31 @@ p {
 .block3:hover,
 .block4:hover {
   background-color: #eeeeee;
-  color: #333;
+  color: #101820;
   transition: 0.4s;
   box-shadow: 0.4rem 0.4rem 0.4rem rgba(0, 0, 0, 0.342);
   max-height: 100%;
 }
 
+.asideOptionsMenu{
+  background-color: #101820;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  height: 5rem;
+}
+.asideOptionsMenu  div{
+  color: #eeeeee;
+  padding: 1rem;
+  text-align: center;
+}
+.asideOptionsCC:hover{
+  background-color: #eeeeee;
+  transition: .4s;
+  color: #101820;
+}
 footer {
   display: flex;
-  color: #363636;
+  color: #101820;
 }
 footer div {
   flex: 1;
