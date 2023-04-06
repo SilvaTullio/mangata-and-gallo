@@ -2,7 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@400;700&display=swap"); /* promo */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap"); /* slogan */
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700&display=swap");
-
+html {
+  background-color: #fff;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: "Nunito", sans-serif;
+}
 aside {
   display: block;
   background-color: black;
@@ -142,14 +149,6 @@ input {
 }
 /* END OF FIRST CONTAINER */
 
-body {
-  background-color: #fff;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  margin-left: 5%;
-  margin-right: 5%;
-  font-family: "Nunito", sans-serif;
-}
 h1 {
   font-size: 3rem;
 }
@@ -221,8 +220,7 @@ p {
   grid-template-columns: 25% 25% 25% 25%;
   height: 7rem;
   font-size: 1.5rem;
-    font-weight: 300;
-
+  font-weight: 300;
 }
 
 .asideOptionsMenu div {
