@@ -158,7 +158,6 @@ h2 {
 
 section {
   display: flex;
-  grid-template-columns: 32% 32% 32% 32%;
   gap: 2%;
 }
 article {
@@ -198,6 +197,7 @@ p {
 .block3,
 .block4 > p {
   line-height: 1.9rem;
+  overflow: hidden;
 }
 .container img {
   border-radius: 0.3rem;

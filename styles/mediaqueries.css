@@ -59,7 +59,7 @@
     border-radius: 1rem;
     cursor: none;
     transition: 0.3s;
-  }  
+  }
 
   .bg > h2,
   p {
@@ -80,7 +80,8 @@
     width: 70%;
     height: 10%;
     top: 55%;
-    left: 17%;
+    left: 50%;
+    transform: translate(-50%);
     font-family: "Quicksand", sans-serif;
     font-weight: 300;
     border: 0.025rem solid #eeeeeec5;
@@ -138,7 +139,7 @@
   }
   .asideOptionsMenu p {
     margin-top: 0.8rem;
-    margin-left: 0rem;
+    margin-left: -0.4rem;
     text-align: center;
   }
 
@@ -154,7 +155,7 @@
   footer {
     display: flex;
     color: #101820;
-    margin-top: 95%;
+    margin-top: 100%;
     font-size: 0.8rem;
   }
   footer div {
@@ -162,9 +163,9 @@
     width: 90%;
     background-color: #eeeeee;
   }
- hr{
-  display: none;
- }
+  hr {
+    display: none;
+  }
   footer img {
     width: 40%;
   }
@@ -173,11 +174,321 @@
 /* Styles for tablets  */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   /*Insert specific styles for tablets here */
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: #eeeeee;
+    height: 80%;
+  }
+  aside {
+    height: 1.7rem;
+    font-size: 1.3rem;
+  }
+  header a > img {
+    min-width: 98%;
+  }
+  nav ul {
+    height: 1rem;
+    padding: 0.5rem;
+  }
+  nav li {
+    display: inline-block;
+  }
+  nav a {
+    color: #101820;
+    margin: 1rem;
+    text-decoration: none;
+  }
+  nav a:hover {
+    text-decoration: none;
+  }
+  .content {
+    display: block;
+    height: 30%;
+    width: 80%;
+    border-radius: 0.25rem;
+    box-shadow: 0rem 0rem 0rem;
+    overflow: hidden;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+  }
+  .navigation {
+    position: absolute;
+    bottom: 0.25rem;
+    display: flex;
+    width: 70%;
+  }
+  .nBar {
+    height: 2.063rem;
+    border: 0.125rem solid #fff;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    cursor: none;
+    transition: 0.3s;
+  }
+  .bg > h2,
+  p {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 50%;
+  }
+  .bg > p {
+    font-weight: 300;
+    text-align: center;
+  }
+  .bg > button {
+    color: white;
+    background-color: #101820;
+    padding: 0rem;
+    position: relative;
+    width: 65%;
+    height: 10%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    border: 0.025rem solid #eeeeeec5;
+  }
+  section {
+    display: block;
+  }
+  .block1 {
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+  .block2,
+  .block3,
+  .block4 {
+    padding: 1.9rem;
+    margin-top: 0rem;
+    background-color: #101820;
+    color: #fff;
+    min-height: 100%;
+    line-height: 2.5rem;
+  }
+  .block2 p {
+    text-align: left;
+  }
+  .block3 p {
+    text-align: left;
+  }
+  .block4 p {
+    text-align: left;
+  }
+  .block2:hover,
+  .block3:hover,
+  .block4:hover {
+    background-color: #101820;
+    color: #eeeeee;
+    transition: none;
+    box-shadow: 0rem 0rem 0rem 0rem;
+    height: 100%;
+    margin-bottom: 0%;
+  }
+  .asideOptionsMenu {
+    background-color: black;
+    display: block;
+    height: 100%;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 2rem;
+  }
+
+  .asideOptionsMenu div {
+    color: #eeeeee;
+    padding: 2rem;
+    text-align: center;
+  }
+  .asideOptionsMenu i {
+    margin: auto;
+    text-align: center;
+  }
+  .asideOptionsMenu p {
+    margin-top: 0.8rem;
+    margin-left: -0.5rem;
+    text-align: center;
+  }
+
+  .asideOptionsCC:hover,
+  .asideOptionsCp:hover,
+  .asideOptionsCD:hover,
+  .asideOptionsPrtn:hover {
+    background-color: rgb(22, 22, 22);
+    transition: 0.4s;
+    color: #eeeeee;
+    cursor: none;
+  }
+  footer {
+    display: flex;
+    color: #101820;
+    margin-top: 100%;
+    font-size: 0.8rem;
+  }
+  footer div {
+    flex: 1;
+    width: 90%;
+    background-color: #eeeeee;
+  }
+  hr {
+    display: none;
+  }
+  footer div img {
+    width: 40%;
+  }
 }
 
 /* Styles for laptops and desktops */
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
   /* Insert specific styles for laptops and desktops here */
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: #eeeeee;
+  }
+  aside {
+    height: 1.7rem;
+    font-size: 1.3rem;
+  }
+  header a > img {
+    min-width: 98%;
+  }
+  nav ul {
+    height: 1rem;
+    padding: 0.5rem;
+  }
+  nav li {
+    display: inline-block;
+  }
+  nav a {
+    color: #101820;
+    margin: 1rem;
+    text-decoration: none;
+  }
+  nav a:hover {
+    text-decoration: none;
+  }
+  .content {
+    display: block;
+    height: 35%;
+    width: 60%;
+    border-radius: 0.25rem;
+    box-shadow: 0rem 0rem 0rem;
+    overflow: hidden;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+  }
+  .navigation {
+    position: absolute;
+    bottom: 0.25rem;
+    display: flex;
+    left: 50%;
+  }
+  .nBar {
+    height: 2rem;
+    border: 0.125rem solid #fff;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    cursor: none;
+    transition: 0.3s;
+  }
+  .bg > h2,
+  p {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 62%;
+  }
+  .bg > p {
+    font-weight: 300;
+    text-align: center;
+  }
+  .bg > button {
+    color: white;
+    background-color: #101820;
+    padding: 0rem;
+    position: relative;
+    width: 50%;
+    height: 10%;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    border: 0.025rem solid #eeeeeec5;
+  }
+  section {
+    display: block;
+  }
+  .block1 {
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+  .block2,
+  .block3,
+  .block4 {
+    padding: 1.9rem;
+    margin-top: 0rem;
+    background-color: #101820;
+    color: #fff;
+    line-height: 2.5rem;
+  }
+  .block2 p {
+    text-align: left;
+  }
+  .block3 p {
+    text-align: left;
+  }
+  .block4 p {
+    text-align: left;
+  }
+  .block2:hover,
+  .block3:hover,
+  .block4:hover {
+    background-color: #101820;
+    color: #eeeeee;
+    transition: none;
+    box-shadow: 0rem 0rem 0rem 0rem;
+    height: 100%;
+    margin-bottom: 0%;
+  }
+
+  .asideOptionsMenu {
+    background-color: black;
+    height: 100%;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  footer {
+    display: flex;
+    color: #101820;
+    font-size: 0.8rem;
+    margin-top: 7rem;
+  }
+  footer div {
+    flex: 1;
+    width: 100%;
+    background-color: #eeeeee;
+  }
+
+  footer img {
+    width: 30%;
+  }
 }
 
 /* Styles for large desktops*/
